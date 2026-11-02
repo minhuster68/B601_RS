@@ -1,0 +1,55 @@
+name: Check README Translations
+
+on:
+  pull_request:
+    paths:
+      - "README*.md"
+      - "tools/check_readme_sync.py"
+      - "tools/tests/**"
+      - ".github/workflows/readme-sync.yml"
+
+  # See the note in link-check.yml: without this, a translation that drifts in a
+  # direct push to main is never checked at all.
+  push:
+    branches: [main]
+    paths:
+      - "README*.md"
+      - "tools/check_readme_sync.py"
+      - "tools/tests/**"
+      - ".github/workflows/readme-sync.yml"
+
+  schedule:
+    - cron: "0 6 * * 1"
+
+  workflow_dispatch:
+
+
+permissions:
+  contents: read
+
+
+concurrency:
+  group: readme-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+  readme-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      # Compares the translations against README.md on roadmap row counts,
+      # per-row status, and specification numbers. Prose is never compared.
+      - name: Check translations against README.md
+        run: python tools/check_readme_sync.py
+
+      - name: Test the checker itself
+        run: python -m unittest discover -s tools/tests -v

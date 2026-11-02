@@ -1,0 +1,1232 @@
+{
+  "schema_version": 1,
+  "description": "Pinned source provenance for the archived MJCF models and their mesh dependencies. Runtime DigitalTwin repositories are unchanged.",
+  "retrieved": "2026-10-23",
+  "base_repository": "Seeed-Projects/reBot-DevArm",
+  "base_commit": "198711e167e01c3ec6f81220d2b8b9acb08c8751",
+  "camera_provenance": "Camera/source.json",
+  "sources": {
+    "RS": {
+      "repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "original_model": {
+        "repository": "LAN-GER/reBot-B601-RS-for-mujoco_sim",
+        "commit": "1249cb6efdf393ba636056fc41df30dc6ba389aa",
+        "license_record": "RS source README reports no upstream LICENSE file at this revision",
+        "record_source": "https://github.com/Yang-Ci/ReBot_Arm_DigitalTwin_RS/blob/aa807cf2affe85b13b86221159871aae7742c01b/rebotarm_ros2_RS/src/rebotarm_mujoco_rs/README.md"
+      }
+    },
+    "DM": {
+      "repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0"
+    }
+  },
+  "files": [
+    {
+      "path": "DM/meshes/collision/base_link.STL",
+      "sha256": "14d98e291f5eb20ce50886fcbc99427606a46ea5cc60fe3e89326e7c45b3d73f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/base_link.STL",
+      "source_sha256": "14d98e291f5eb20ce50886fcbc99427606a46ea5cc60fe3e89326e7c45b3d73f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/gripper_base.stl",
+      "sha256": "5e7b0473acaf31fc5c511a3591311e6561ad6066af8e135e21e18c096e1e7da5",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/gripper_base.stl",
+      "source_sha256": "5e7b0473acaf31fc5c511a3591311e6561ad6066af8e135e21e18c096e1e7da5",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/left_finger.stl",
+      "sha256": "cf8a3acbbfbcaf15e3de0663e80956a1601d3595ea451107174620e8bfcbeb5c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/left_finger.stl",
+      "source_sha256": "cf8a3acbbfbcaf15e3de0663e80956a1601d3595ea451107174620e8bfcbeb5c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link1.STL",
+      "sha256": "33fc9ebe2654cc27d47edd97fb90b13d2611ed2eba734332b9110d93c24cc25d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link1.STL",
+      "source_sha256": "33fc9ebe2654cc27d47edd97fb90b13d2611ed2eba734332b9110d93c24cc25d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link2.STL",
+      "sha256": "3dc33c484f02966f43c37b38d848669d31018140a56e3ac5c9366add36cc3fa0",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link2.STL",
+      "source_sha256": "3dc33c484f02966f43c37b38d848669d31018140a56e3ac5c9366add36cc3fa0",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link3.STL",
+      "sha256": "783383016dbe0a258bd94e7fffb66c7056c9aa9dd42b61e5abb24cb228a99035",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link3.STL",
+      "source_sha256": "783383016dbe0a258bd94e7fffb66c7056c9aa9dd42b61e5abb24cb228a99035",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link4.STL",
+      "sha256": "95364d6a7008b62fe173f447219c2ce2cd2e6f0882997374cb1d8f60652c5848",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link4.STL",
+      "source_sha256": "95364d6a7008b62fe173f447219c2ce2cd2e6f0882997374cb1d8f60652c5848",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link5.STL",
+      "sha256": "19ea62cabf41394d4de0ce4437298484227f37fe5e0f99c20cea2d260ede45e8",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link5.STL",
+      "source_sha256": "19ea62cabf41394d4de0ce4437298484227f37fe5e0f99c20cea2d260ede45e8",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/link6.STL",
+      "sha256": "6315a8ae1c03a2806f9e3ade2ca7e8740f34dfe05898fc02b620b0a2e459546a",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/link6.STL",
+      "source_sha256": "6315a8ae1c03a2806f9e3ade2ca7e8740f34dfe05898fc02b620b0a2e459546a",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/collision/right_finger.stl",
+      "sha256": "e4b5ebef66e0b2b3e5d6e0ab59342716cca585db94c5bd4fc95b79f21c6657ef",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/right_finger.stl",
+      "source_sha256": "e4b5ebef66e0b2b3e5d6e0ab59342716cca585db94c5bd4fc95b79f21c6657ef",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/left_finger_front.stl",
+      "sha256": "936693f1bb04d9804eaf3acb372decd441114a9fd86bd0d9ee4b7809b45388fc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/left_finger_front.stl",
+      "source_sha256": "936693f1bb04d9804eaf3acb372decd441114a9fd86bd0d9ee4b7809b45388fc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/left_finger_mid.stl",
+      "sha256": "b6edbec6b4bdbee3b5f828b22782fb7cff9f7db97d1af1c2e1c48da246d7fb1c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/left_finger_mid.stl",
+      "source_sha256": "b6edbec6b4bdbee3b5f828b22782fb7cff9f7db97d1af1c2e1c48da246d7fb1c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/left_finger_rear.stl",
+      "sha256": "06bdb9aafaf8b2d0f852627e4de35400cf4e6333a9f5221b294d03cb4831f069",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/left_finger_rear.stl",
+      "source_sha256": "06bdb9aafaf8b2d0f852627e4de35400cf4e6333a9f5221b294d03cb4831f069",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/right_finger_front.stl",
+      "sha256": "07a6f2151d34578f11d52a9ff62f0ac73187059a57a5a444608bd4b59d71de2c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/right_finger_front.stl",
+      "source_sha256": "07a6f2151d34578f11d52a9ff62f0ac73187059a57a5a444608bd4b59d71de2c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/right_finger_mid.stl",
+      "sha256": "75850c41f902f73424e18ce21c1bf3a07597f4b5a5bfbb7bb8be40874fe78ff2",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/right_finger_mid.stl",
+      "source_sha256": "75850c41f902f73424e18ce21c1bf3a07597f4b5a5bfbb7bb8be40874fe78ff2",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/mujoco_collision/right_finger_rear.stl",
+      "sha256": "69a9bd9e6e9f22b12c71e79522174b8f7bac408ba8610a27f167801727d99065",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/right_finger_rear.stl",
+      "source_sha256": "69a9bd9e6e9f22b12c71e79522174b8f7bac408ba8610a27f167801727d99065",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/shared/colored_left_finger_carriage_grey.stl",
+      "sha256": "f650b231f1d366e0413db8bd4f6e9925442fb576841914aad57dde5a9bae5c46",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_left_finger_carriage_grey.stl",
+      "source_sha256": "f650b231f1d366e0413db8bd4f6e9925442fb576841914aad57dde5a9bae5c46",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/shared/colored_left_finger_travel_stop_yellow.stl",
+      "sha256": "2fdf7c97d0388fe3c8a5fe2408a1d97201243be729cb1f7a3b56c3916c92da53",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_left_finger_travel_stop_yellow.stl",
+      "source_sha256": "2fdf7c97d0388fe3c8a5fe2408a1d97201243be729cb1f7a3b56c3916c92da53",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/shared/colored_right_finger_carriage_grey.stl",
+      "sha256": "efa43d88c9bed0a66ac84a9cf26ac1c5326178dc93b4a01e0e1dbfa5b4430d22",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_right_finger_carriage_grey.stl",
+      "source_sha256": "efa43d88c9bed0a66ac84a9cf26ac1c5326178dc93b4a01e0e1dbfa5b4430d22",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/shared/colored_right_finger_travel_stop_yellow.stl",
+      "sha256": "1d28609e4761077beac32d127aaefa23ffb1a615de766ce0b71256344f735e0b",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_right_finger_travel_stop_yellow.stl",
+      "source_sha256": "1d28609e4761077beac32d127aaefa23ffb1a615de766ce0b71256344f735e0b",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_base_link_hardware_black.stl",
+      "sha256": "12deea0cd6f358ba23c53d27ff63e6ed4c5dfdc4014dd4dbef0e04966e0ec184",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_base_link_hardware_black.stl",
+      "source_sha256": "12deea0cd6f358ba23c53d27ff63e6ed4c5dfdc4014dd4dbef0e04966e0ec184",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_base_link_matte_black.stl",
+      "sha256": "a692eb4c625b6fa5be2f7d7831c8fb358aa4c7aa1cefa2ff1c133e22779cb33e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_base_link_matte_black.stl",
+      "source_sha256": "a692eb4c625b6fa5be2f7d7831c8fb358aa4c7aa1cefa2ff1c133e22779cb33e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_base_link_silver_trim.stl",
+      "sha256": "da6fefa2ff02dd661b74a5454e7b090d91a3059249790af7241c4364edaf7283",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_base_link_silver_trim.stl",
+      "source_sha256": "da6fefa2ff02dd661b74a5454e7b090d91a3059249790af7241c4364edaf7283",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_gripper_base_hardware_black.stl",
+      "sha256": "9e89b784b7db552d5fea7c5f57a8317f4d23ace19e594bb59e18ada37471569e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_gripper_base_hardware_black.stl",
+      "source_sha256": "9e89b784b7db552d5fea7c5f57a8317f4d23ace19e594bb59e18ada37471569e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_gripper_base_metal.stl",
+      "sha256": "ac9032a968febcca070696e3f75f10d98727eb74548f1e502428a9b89ffdb187",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_gripper_base_metal.stl",
+      "source_sha256": "ac9032a968febcca070696e3f75f10d98727eb74548f1e502428a9b89ffdb187",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_gripper_base_seeed_yellow.stl",
+      "sha256": "5632650c7506d5ea9699fd7fee674c937ec764f98ce2123d80a5094d94c2e6f1",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_gripper_base_seeed_yellow.stl",
+      "source_sha256": "5632650c7506d5ea9699fd7fee674c937ec764f98ce2123d80a5094d94c2e6f1",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_left_finger_finger_black.stl",
+      "sha256": "5473c38c7de9d4c8297e0a5134c14cfc8f9d6376b5d8257931ba4ae1b1e3dcda",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_left_finger_finger_black.stl",
+      "source_sha256": "5473c38c7de9d4c8297e0a5134c14cfc8f9d6376b5d8257931ba4ae1b1e3dcda",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_left_finger_rack_metal.stl",
+      "sha256": "938e863507227a7dd96bd4bb2196a7b3361b2718c44cd39bc2ffc39482ab5455",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_left_finger_rack_metal.stl",
+      "source_sha256": "938e863507227a7dd96bd4bb2196a7b3361b2718c44cd39bc2ffc39482ab5455",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link1_anodized_grey.stl",
+      "sha256": "8ba2520c9321fc5532f4ce52b2cf39a8f42f5f6eaef86524b313ea2a3942e5fa",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link1_anodized_grey.stl",
+      "source_sha256": "8ba2520c9321fc5532f4ce52b2cf39a8f42f5f6eaef86524b313ea2a3942e5fa",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link1_hardware_black.stl",
+      "sha256": "4825fcb6b569439a9dc6cce09547cb143316597a7fe0f63bd727e7bb42390ea9",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link1_hardware_black.stl",
+      "source_sha256": "4825fcb6b569439a9dc6cce09547cb143316597a7fe0f63bd727e7bb42390ea9",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link1_matte_black.stl",
+      "sha256": "e4f57546af71031f144fc67b59c4c64a93764ac25f6ed079fc5c2c4ee54fd768",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link1_matte_black.stl",
+      "source_sha256": "e4f57546af71031f144fc67b59c4c64a93764ac25f6ed079fc5c2c4ee54fd768",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link2_anodized_grey.stl",
+      "sha256": "a0ceb3fddf2f65db57f7e2518febc124d6847d8ce199ae4073e9902432628c94",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link2_anodized_grey.stl",
+      "source_sha256": "a0ceb3fddf2f65db57f7e2518febc124d6847d8ce199ae4073e9902432628c94",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link2_hardware_black.stl",
+      "sha256": "f50c02f1568b636edffd1a5eb5aab1abe4add9f3731c51c1f061525a43daacf2",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link2_hardware_black.stl",
+      "source_sha256": "f50c02f1568b636edffd1a5eb5aab1abe4add9f3731c51c1f061525a43daacf2",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link2_matte_black.stl",
+      "sha256": "f12463e6f38763bd96b3907d58bdbab4a93e297de72e891c28df02d701af984b",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link2_matte_black.stl",
+      "source_sha256": "f12463e6f38763bd96b3907d58bdbab4a93e297de72e891c28df02d701af984b",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link2_seeed_yellow.stl",
+      "sha256": "56a5cd3550a46626f528a67de323e4835757140ed3d784bb5455a7db6442be39",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link2_seeed_yellow.stl",
+      "source_sha256": "56a5cd3550a46626f528a67de323e4835757140ed3d784bb5455a7db6442be39",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link3_anodized_grey.stl",
+      "sha256": "b8687a7fdd6aef7d764a7364ae42d7637dc4f6c38e0a258e9d8b23c453f567bd",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link3_anodized_grey.stl",
+      "source_sha256": "b8687a7fdd6aef7d764a7364ae42d7637dc4f6c38e0a258e9d8b23c453f567bd",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link3_hardware_black.stl",
+      "sha256": "e983eb537d06b7427e4391a7cbe343d8e03667033f32d2b20a98ab9ff55540ee",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link3_hardware_black.stl",
+      "source_sha256": "e983eb537d06b7427e4391a7cbe343d8e03667033f32d2b20a98ab9ff55540ee",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link3_matte_black.stl",
+      "sha256": "7dd5ecba918916ca4f7322731ea69a7b5012fa9a18ebd3d6017e6950610035e1",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link3_matte_black.stl",
+      "source_sha256": "7dd5ecba918916ca4f7322731ea69a7b5012fa9a18ebd3d6017e6950610035e1",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link3_seeed_yellow.stl",
+      "sha256": "39ab75600959b4ef82a10ff9e9e1c6fdd74a51ed5fb5ee192df5b8da69d2ae36",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link3_seeed_yellow.stl",
+      "source_sha256": "39ab75600959b4ef82a10ff9e9e1c6fdd74a51ed5fb5ee192df5b8da69d2ae36",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link4_anodized_grey.stl",
+      "sha256": "4ce8aff6c90e347c3bdf72506a681777e70b061d2df62fb9441bf350743093db",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link4_anodized_grey.stl",
+      "source_sha256": "4ce8aff6c90e347c3bdf72506a681777e70b061d2df62fb9441bf350743093db",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link4_hardware_black.stl",
+      "sha256": "9e26076a2565f53ccd9bd167947dabc7dd9c1186866094016d270b118a5c1234",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link4_hardware_black.stl",
+      "source_sha256": "9e26076a2565f53ccd9bd167947dabc7dd9c1186866094016d270b118a5c1234",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link4_matte_black.stl",
+      "sha256": "faeffab64bf462b2c07a889a0fa70a5f326ab069e61f166f634f2729b45d4679",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link4_matte_black.stl",
+      "source_sha256": "faeffab64bf462b2c07a889a0fa70a5f326ab069e61f166f634f2729b45d4679",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link4_seeed_yellow.stl",
+      "sha256": "380299025b1e0ebb312b8f91155cc69120b6b16756b8dbb34172ac425f252640",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link4_seeed_yellow.stl",
+      "source_sha256": "380299025b1e0ebb312b8f91155cc69120b6b16756b8dbb34172ac425f252640",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link5_anodized_grey.stl",
+      "sha256": "b1b4caeba17d30bb7999ccd54bfbaa8227d8a76a37cd0e6c66414455383fc24f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link5_anodized_grey.stl",
+      "source_sha256": "b1b4caeba17d30bb7999ccd54bfbaa8227d8a76a37cd0e6c66414455383fc24f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link5_hardware_black.stl",
+      "sha256": "75adf40d6c770d6d391134aa6fd380c1e18ff91ddda99c6472465ba3d48b8717",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link5_hardware_black.stl",
+      "source_sha256": "75adf40d6c770d6d391134aa6fd380c1e18ff91ddda99c6472465ba3d48b8717",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link5_matte_black.stl",
+      "sha256": "c4555b72ccfb8cd0af6876e823bd8e2f19ba42e555289f6e851073988cb19cae",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link5_matte_black.stl",
+      "source_sha256": "c4555b72ccfb8cd0af6876e823bd8e2f19ba42e555289f6e851073988cb19cae",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link6_hardware_black.stl",
+      "sha256": "e4dedf8865e4cbf055701ccd3b3bf220b9d16b2fbc1cafabfb57fd9001aceb3d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link6_hardware_black.stl",
+      "source_sha256": "e4dedf8865e4cbf055701ccd3b3bf220b9d16b2fbc1cafabfb57fd9001aceb3d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_link6_matte_black.stl",
+      "sha256": "4d122a7978946ba06d67f7dd03dbd81436a328b8856bcd60fa67fbf95dc1954d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_link6_matte_black.stl",
+      "source_sha256": "4d122a7978946ba06d67f7dd03dbd81436a328b8856bcd60fa67fbf95dc1954d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_right_finger_finger_black.stl",
+      "sha256": "caf83c51fb2d98cba27414ba903297a76f0bdbc22513b3e97b3cff44ecb80693",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_right_finger_finger_black.stl",
+      "source_sha256": "caf83c51fb2d98cba27414ba903297a76f0bdbc22513b3e97b3cff44ecb80693",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/meshes/visual/colored_right_finger_rack_metal.stl",
+      "sha256": "0ae753bbf754c48ad918195c310735a397ae4d0d8250297af1ef3afe65d6d9f5",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_bringup/description/meshes/colored_right_finger_rack_metal.stl",
+      "source_sha256": "0ae753bbf754c48ad918195c310735a397ae4d0d8250297af1ef3afe65d6d9f5",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/mjcf/SOURCE_LICENSE.txt",
+      "sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "LICENSE",
+      "source_sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/mjcf/rebotarm_b601_colored.xml",
+      "sha256": "1ab5652c61ca7f7f7feed34be6d5afcbc91ad2f812c238fed00b6b3a9ddaf63d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_mujoco/models/rebotarm_b601_colored.xml",
+      "source_sha256": "902fdcab1bedc970eb3046fa0f49b38f71fee712cdb79b4cbf2ed50b217c182c",
+      "transformation": "mesh reference paths only"
+    },
+    {
+      "path": "DM/mjcf/rebotarm_b601_kinematic.xml",
+      "sha256": "9525fae8b7e79652d8119ef99e8d2ec653463b347536d09402a5a1780f729ea8",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_mujoco/models/rebotarm_b601_kinematic.xml",
+      "source_sha256": "9525fae8b7e79652d8119ef99e8d2ec653463b347536d09402a5a1780f729ea8",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "DM/mjcf/rebotarm_b601_stl.xml",
+      "sha256": "cb03448542611ff154655b97bd5bb4fcc24bcfd972fcfca9d642cd1c38c8a92f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_mujoco/models/rebotarm_b601_stl.xml",
+      "source_sha256": "db5111229a4505aa1f610a8beb50ef0fff0de47579ce6fe81d2226f2532c1cc5",
+      "transformation": "mesh reference paths only"
+    },
+    {
+      "path": "DM/mjcf/simple_rebotarm.xml",
+      "sha256": "100bb2d1ccd6463aa44e12cb83879aa6a9be061095532f265d37c0a557ad8d7d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_DM",
+      "source_commit": "7456d8bc3cc6d9c470680988543f90bc8f3b03b0",
+      "source_path": "reBotArm_ros2_DM/src/rebotarm_mujoco/models/simple_rebotarm.xml",
+      "source_sha256": "100bb2d1ccd6463aa44e12cb83879aa6a9be061095532f265d37c0a557ad8d7d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/colored_left_finger_carriage_grey.stl",
+      "sha256": "f650b231f1d366e0413db8bd4f6e9925442fb576841914aad57dde5a9bae5c46",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/colored_left_finger_carriage_grey.stl",
+      "source_sha256": "f650b231f1d366e0413db8bd4f6e9925442fb576841914aad57dde5a9bae5c46",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/colored_left_finger_travel_stop_yellow.stl",
+      "sha256": "2fdf7c97d0388fe3c8a5fe2408a1d97201243be729cb1f7a3b56c3916c92da53",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/colored_left_finger_travel_stop_yellow.stl",
+      "source_sha256": "2fdf7c97d0388fe3c8a5fe2408a1d97201243be729cb1f7a3b56c3916c92da53",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/colored_right_finger_carriage_grey.stl",
+      "sha256": "efa43d88c9bed0a66ac84a9cf26ac1c5326178dc93b4a01e0e1dbfa5b4430d22",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/colored_right_finger_carriage_grey.stl",
+      "source_sha256": "efa43d88c9bed0a66ac84a9cf26ac1c5326178dc93b4a01e0e1dbfa5b4430d22",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/colored_right_finger_travel_stop_yellow.stl",
+      "sha256": "1d28609e4761077beac32d127aaefa23ffb1a615de766ce0b71256344f735e0b",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/colored_right_finger_travel_stop_yellow.stl",
+      "source_sha256": "1d28609e4761077beac32d127aaefa23ffb1a615de766ce0b71256344f735e0b",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/left_finger_front.stl",
+      "sha256": "936693f1bb04d9804eaf3acb372decd441114a9fd86bd0d9ee4b7809b45388fc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/left_finger_front.stl",
+      "source_sha256": "936693f1bb04d9804eaf3acb372decd441114a9fd86bd0d9ee4b7809b45388fc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/left_finger_mid.stl",
+      "sha256": "b6edbec6b4bdbee3b5f828b22782fb7cff9f7db97d1af1c2e1c48da246d7fb1c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/left_finger_mid.stl",
+      "source_sha256": "b6edbec6b4bdbee3b5f828b22782fb7cff9f7db97d1af1c2e1c48da246d7fb1c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/left_finger_rear.stl",
+      "sha256": "06bdb9aafaf8b2d0f852627e4de35400cf4e6333a9f5221b294d03cb4831f069",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/left_finger_rear.stl",
+      "source_sha256": "06bdb9aafaf8b2d0f852627e4de35400cf4e6333a9f5221b294d03cb4831f069",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/right_finger_front.stl",
+      "sha256": "07a6f2151d34578f11d52a9ff62f0ac73187059a57a5a444608bd4b59d71de2c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/right_finger_front.stl",
+      "source_sha256": "07a6f2151d34578f11d52a9ff62f0ac73187059a57a5a444608bd4b59d71de2c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/right_finger_mid.stl",
+      "sha256": "75850c41f902f73424e18ce21c1bf3a07597f4b5a5bfbb7bb8be40874fe78ff2",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/right_finger_mid.stl",
+      "source_sha256": "75850c41f902f73424e18ce21c1bf3a07597f4b5a5bfbb7bb8be40874fe78ff2",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/mujoco_collision/right_finger_rear.stl",
+      "sha256": "69a9bd9e6e9f22b12c71e79522174b8f7bac408ba8610a27f167801727d99065",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/right_finger_rear.stl",
+      "source_sha256": "69a9bd9e6e9f22b12c71e79522174b8f7bac408ba8610a27f167801727d99065",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/base_link.STL",
+      "sha256": "af1df69639fb1f1022ad94ca1537157f8dbef379ec37fd75d8901d30d4061cbe",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/base_link.STL",
+      "source_sha256": "af1df69639fb1f1022ad94ca1537157f8dbef379ec37fd75d8901d30d4061cbe",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/gripper_end.STL",
+      "sha256": "d52ed4bb37754fa9d57cc21b4be3b9f90373b6d5594c521e7c3cd3a1adf5ba62",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/gripper_end.STL",
+      "source_sha256": "d52ed4bb37754fa9d57cc21b4be3b9f90373b6d5594c521e7c3cd3a1adf5ba62",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link1.STL",
+      "sha256": "60860556dd91b15eff0bb7d3a5bffcf4b34ac98156c542f203ad6ce755be2d1d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link1.STL",
+      "source_sha256": "60860556dd91b15eff0bb7d3a5bffcf4b34ac98156c542f203ad6ce755be2d1d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link2.STL",
+      "sha256": "f3653afa47f7f2ee9733416e56c52745b5eaafd23ca6c84360dffd440e12668d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link2.STL",
+      "source_sha256": "f3653afa47f7f2ee9733416e56c52745b5eaafd23ca6c84360dffd440e12668d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link3.STL",
+      "sha256": "3d6502345c14bd2d6c5b9c394672efdaa2b787cc81a0bed23a0bde574e787a28",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link3.STL",
+      "source_sha256": "3d6502345c14bd2d6c5b9c394672efdaa2b787cc81a0bed23a0bde574e787a28",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link4.STL",
+      "sha256": "431e5e7365ba31df598207dee6d48ff3051ec32f6d42dcae8e3b25e7807617c4",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link4.STL",
+      "source_sha256": "431e5e7365ba31df598207dee6d48ff3051ec32f6d42dcae8e3b25e7807617c4",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link5.STL",
+      "sha256": "e8888083f0cf597e7f0afb7b273b81f55df7ef45eee706dbf840c9ef365c7b1e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link5.STL",
+      "source_sha256": "e8888083f0cf597e7f0afb7b273b81f55df7ef45eee706dbf840c9ef365c7b1e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/shared/link6.STL",
+      "sha256": "29a7809bde57f21b536588e78e66bec137f1fbe50308b71ffa842b6efbb109fd",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/link6.STL",
+      "source_sha256": "29a7809bde57f21b536588e78e66bec137f1fbe50308b71ffa842b6efbb109fd",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc2.STL",
+      "sha256": "fa41ae81c68a7ce3ad49c3680ac7cde88fa5d02984298846f3c6fa6a28d009db",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc2.STL",
+      "source_sha256": "fa41ae81c68a7ce3ad49c3680ac7cde88fa5d02984298846f3c6fa6a28d009db",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc3.STL",
+      "sha256": "4018cd61ac7d6dd97cfe45cb7b0480d0275476757c2afc61bf05bd287fad3ca4",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc3.STL",
+      "source_sha256": "4018cd61ac7d6dd97cfe45cb7b0480d0275476757c2afc61bf05bd287fad3ca4",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc4.STL",
+      "sha256": "6a85571eaedbbf06a799a89fd56d9cf3778070cd852ec6cb6da285ec34a35dec",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc4.STL",
+      "source_sha256": "6a85571eaedbbf06a799a89fd56d9cf3778070cd852ec6cb6da285ec34a35dec",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc5.STL",
+      "sha256": "1772159cd66b600c0ed0db67c7f5c33865ee09e9b2dae02339d95d9cef158489",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc5.STL",
+      "source_sha256": "1772159cd66b600c0ed0db67c7f5c33865ee09e9b2dae02339d95d9cef158489",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc7.STL",
+      "sha256": "2d6088744c7d5195fc3f78d930dba9a9843ad208b2a6243fade1aaf17fecc782",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc7.STL",
+      "source_sha256": "2d6088744c7d5195fc3f78d930dba9a9843ad208b2a6243fade1aaf17fecc782",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc_left.STL",
+      "sha256": "8f8ed951fad05dd5e3fec04f697864a64e394db9138d72fdfa62f8f047388aa6",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc_left.STL",
+      "source_sha256": "8f8ed951fad05dd5e3fec04f697864a64e394db9138d72fdfa62f8f047388aa6",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/cnc_right.STL",
+      "sha256": "d7be82297465675b19b5651f3e25c5bab82d33a20bab2aa48ddffbbcf8c65072",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/cnc_right.STL",
+      "source_sha256": "d7be82297465675b19b5651f3e25c5bab82d33a20bab2aa48ddffbbcf8c65072",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/motor_2_3.STL",
+      "sha256": "509d445fa6cade769d0c9865b5ae7e6d7ae7cf05496ade798e293edc834f9725",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/motor_2_3.STL",
+      "source_sha256": "509d445fa6cade769d0c9865b5ae7e6d7ae7cf05496ade798e293edc834f9725",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/motor_4.STL",
+      "sha256": "2251e479b009b2c1335e0c932dd44bf3f170cf55fec1febd944ae087bbbcac22",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/motor_4.STL",
+      "source_sha256": "2251e479b009b2c1335e0c932dd44bf3f170cf55fec1febd944ae087bbbcac22",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/motor_5.STL",
+      "sha256": "87a9380b8441116d1e31eafcdd2900a06eb3ad9a0858b7715b41485660af07b4",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/motor_5.STL",
+      "source_sha256": "87a9380b8441116d1e31eafcdd2900a06eb3ad9a0858b7715b41485660af07b4",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/motor_6.STL",
+      "sha256": "a488f0f5d5727b2086f1511570f06a722b6e6312894ba12d7eacd0614208d527",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/motor_6.STL",
+      "source_sha256": "a488f0f5d5727b2086f1511570f06a722b6e6312894ba12d7eacd0614208d527",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/motor_7.STL",
+      "sha256": "4e019eae9e44376b9d876eae995535bcca7761e4083a3ed0d8705d25cffa9dc1",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/motor_7.STL",
+      "source_sha256": "4e019eae9e44376b9d876eae995535bcca7761e4083a3ed0d8705d25cffa9dc1",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla2_black.STL",
+      "sha256": "3334ffafff11e43f2bc6102e734e2fe0b61369ae5dd657163c01e005f5fa753d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla2_black.STL",
+      "source_sha256": "3334ffafff11e43f2bc6102e734e2fe0b61369ae5dd657163c01e005f5fa753d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla2_green.STL",
+      "sha256": "3c1445d686ec45637f2ca16546b23c06a1671ae4266b7df0ae00671e1b093431",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla2_green.STL",
+      "source_sha256": "3c1445d686ec45637f2ca16546b23c06a1671ae4266b7df0ae00671e1b093431",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla3_black_without_seeed_badge.STL",
+      "sha256": "3cc986a724bb7e22acba8b2c905fcd6d0d2d7f9b1094e64a4960f24cc94f146e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla3_black_without_seeed_badge.STL",
+      "source_sha256": "3cc986a724bb7e22acba8b2c905fcd6d0d2d7f9b1094e64a4960f24cc94f146e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla3_green.STL",
+      "sha256": "7aee9689f19b6cb697bc81e2005b2652a1fad2887798108d96500bd82796b212",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla3_green.STL",
+      "source_sha256": "7aee9689f19b6cb697bc81e2005b2652a1fad2887798108d96500bd82796b212",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla3_seeed_badge_with_counters.STL",
+      "sha256": "24f7fb2daafafc408eda5a23b7a71cad6a0de65533a2d8ea0703916bf3857a1f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla3_seeed_badge_with_counters.STL",
+      "source_sha256": "24f7fb2daafafc408eda5a23b7a71cad6a0de65533a2d8ea0703916bf3857a1f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla3_seeed_wordmark_backing.STL",
+      "sha256": "b837592ca2910576526e3806f0c96c19e3eac8ba197e38149f1e7935932b4208",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla3_seeed_wordmark_backing.STL",
+      "source_sha256": "b837592ca2910576526e3806f0c96c19e3eac8ba197e38149f1e7935932b4208",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla5_green.STL",
+      "sha256": "d8810ec3fe0a9cb56d5fb9939d6f826b8cc62dd2691131aa44ccf9f9d01cc547",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla5_green.STL",
+      "source_sha256": "d8810ec3fe0a9cb56d5fb9939d6f826b8cc62dd2691131aa44ccf9f9d01cc547",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla7_green.STL",
+      "sha256": "00b3c3d51f6f756ab96fc65a229610b952ce4a8be927e2ec404bacbcf43f4afc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla7_green.STL",
+      "source_sha256": "00b3c3d51f6f756ab96fc65a229610b952ce4a8be927e2ec404bacbcf43f4afc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla_left.STL",
+      "sha256": "0e774ab0bf2975792982adf646465c7ed1ff35b9ed0ad9bf3fb14c9d7480ebef",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla_left.STL",
+      "source_sha256": "0e774ab0bf2975792982adf646465c7ed1ff35b9ed0ad9bf3fb14c9d7480ebef",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/pla_right.STL",
+      "sha256": "43556446abbbecd847bb09a4dc13d4ef2aa266a9ba904e5ac9ccff89a3c8280d",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/pla_right.STL",
+      "source_sha256": "43556446abbbecd847bb09a4dc13d4ef2aa266a9ba904e5ac9ccff89a3c8280d",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_00.stl",
+      "sha256": "da4499aaf39b8aea472c69c7a8a44eb4208dc54412b72c66b6523f490acfbbfc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_00.stl",
+      "source_sha256": "da4499aaf39b8aea472c69c7a8a44eb4208dc54412b72c66b6523f490acfbbfc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_01.stl",
+      "sha256": "fcc0c9d7ea5f20e11f1276fffa4dc6f550f17f49ec221a8170a9ba2bfde07036",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_01.stl",
+      "source_sha256": "fcc0c9d7ea5f20e11f1276fffa4dc6f550f17f49ec221a8170a9ba2bfde07036",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_02.stl",
+      "sha256": "5e85e9006a7540970f1287e4ef33fb2a29de1f4769b15caadbe6db2e6f0d37d5",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_02.stl",
+      "source_sha256": "5e85e9006a7540970f1287e4ef33fb2a29de1f4769b15caadbe6db2e6f0d37d5",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_03.stl",
+      "sha256": "e17b560d9a1b2412d48a19492fdd93690f90605460b60026a59b298386d8e929",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_03.stl",
+      "source_sha256": "e17b560d9a1b2412d48a19492fdd93690f90605460b60026a59b298386d8e929",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_04.stl",
+      "sha256": "84fb1d62ce9e3efe641df7344eda42e1ea77e8519bb703206d791469c5e2b276",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_04.stl",
+      "source_sha256": "84fb1d62ce9e3efe641df7344eda42e1ea77e8519bb703206d791469c5e2b276",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_05.stl",
+      "sha256": "65c91a6b567e6331514b0a61847008c486b8d50fa550d827bd242952f3619042",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_05.stl",
+      "source_sha256": "65c91a6b567e6331514b0a61847008c486b8d50fa550d827bd242952f3619042",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_06.stl",
+      "sha256": "47584ed431f8368cc7dbd28e277c5a387e3661ccf7449a4486a78cb909d30fdc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_06.stl",
+      "source_sha256": "47584ed431f8368cc7dbd28e277c5a387e3661ccf7449a4486a78cb909d30fdc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_07.stl",
+      "sha256": "b52188e7ecd8d30b5a077a79fe80f4ee9d02445b021a20f83b3be3c934742679",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_07.stl",
+      "source_sha256": "b52188e7ecd8d30b5a077a79fe80f4ee9d02445b021a20f83b3be3c934742679",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_08.stl",
+      "sha256": "3212b6eafcbb14d15b428188422821a453eaf431dde804b7864ddb546829b602",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_08.stl",
+      "source_sha256": "3212b6eafcbb14d15b428188422821a453eaf431dde804b7864ddb546829b602",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_09.stl",
+      "sha256": "37ab66d9743b4e11089010dfa447289a036be5b6c0ea7eb9fceaa377c67fc3cc",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_09.stl",
+      "source_sha256": "37ab66d9743b4e11089010dfa447289a036be5b6c0ea7eb9fceaa377c67fc3cc",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_10.stl",
+      "sha256": "af465683e6b58e9ac745d257a063ab4b6c87d08b9e9508756c82167b62f5c190",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_10.stl",
+      "source_sha256": "af465683e6b58e9ac745d257a063ab4b6c87d08b9e9508756c82167b62f5c190",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_11.stl",
+      "sha256": "684e55583f56fa94cfc7917ed39f4e3847edaa8e51c833afd72d4b30feec601c",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_11.stl",
+      "source_sha256": "684e55583f56fa94cfc7917ed39f4e3847edaa8e51c833afd72d4b30feec601c",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_12.stl",
+      "sha256": "533855c271271c0ee914d60e62eb0de676bd15576b967d077caa699a231a2f77",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_12.stl",
+      "source_sha256": "533855c271271c0ee914d60e62eb0de676bd15576b967d077caa699a231a2f77",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_13.stl",
+      "sha256": "f91ccf852cd1863bb321402e180a7db1695532fe46b215f4cb226a8e84b744da",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_13.stl",
+      "source_sha256": "f91ccf852cd1863bb321402e180a7db1695532fe46b215f4cb226a8e84b744da",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_14.stl",
+      "sha256": "45d176e24045b8b9d5b8ba6c1f6ef032186095afe800fb235eeb853626afdfad",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_14.stl",
+      "source_sha256": "45d176e24045b8b9d5b8ba6c1f6ef032186095afe800fb235eeb853626afdfad",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_15.stl",
+      "sha256": "88ad4004473951e35871bdf14f0338112cc32b1eaf8a9eecf0fa554d2f854e8f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_15.stl",
+      "source_sha256": "88ad4004473951e35871bdf14f0338112cc32b1eaf8a9eecf0fa554d2f854e8f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_16.stl",
+      "sha256": "218439f4ecc04d903e67eea9b4273446b0a23b222b5e07d635567a167f7a545f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_16.stl",
+      "source_sha256": "218439f4ecc04d903e67eea9b4273446b0a23b222b5e07d635567a167f7a545f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_17.stl",
+      "sha256": "52135323946e94b3fa4d70e3012ef2d437efa755bd36fc85a2cb61801b5f00b8",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_17.stl",
+      "source_sha256": "52135323946e94b3fa4d70e3012ef2d437efa755bd36fc85a2cb61801b5f00b8",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_d435i_body_18.stl",
+      "sha256": "ee4c3d382bbc75a9081514277e9b470b4debe751456f2d3727a7175da21adfb3",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_d435i_body_18.stl",
+      "source_sha256": "ee4c3d382bbc75a9081514277e9b470b4debe751456f2d3727a7175da21adfb3",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_base_link.stl",
+      "sha256": "574379850b84e67e7e2b5def236e35270e4f5d3f1bcf029589969fd9ba468fdd",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_base_link.stl",
+      "source_sha256": "574379850b84e67e7e2b5def236e35270e4f5d3f1bcf029589969fd9ba468fdd",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_camera_botter_screw_frame.stl",
+      "sha256": "6231bcb2df96553131a896d6f21fe4d1ba90e6df7e31ed2605cb70d5d0a76100",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_camera_botter_screw_frame.stl",
+      "source_sha256": "6231bcb2df96553131a896d6f21fe4d1ba90e6df7e31ed2605cb70d5d0a76100",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_camera_color_frame.stl",
+      "sha256": "32b60b7c2c6c64e624f8510b0c48763ac858c6610211e66b53dd20d3a6ba6f83",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_camera_color_optical_frame.stl",
+      "source_sha256": "32b60b7c2c6c64e624f8510b0c48763ac858c6610211e66b53dd20d3a6ba6f83",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_camera_infra1_frame.stl",
+      "sha256": "750bcf7eaeb14ef43121c5c4fc87640daf5cb1150c81de2e052a5f9f4878f55e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_camera_infra1_frame.stl",
+      "source_sha256": "750bcf7eaeb14ef43121c5c4fc87640daf5cb1150c81de2e052a5f9f4878f55e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_camera_infra1_optical_frame.stl",
+      "sha256": "342c0b4881c8b2886c37260ddb730f75c5259f311ef1fc60ec9b1728948ecd03",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_camera_infra2_optical_frame.stl",
+      "source_sha256": "342c0b4881c8b2886c37260ddb730f75c5259f311ef1fc60ec9b1728948ecd03",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_gemini2_camera_infra2_frame.stl",
+      "sha256": "26319407e13d7ef04d26238dcb0f679c8c7b8507e5a11fdc20b25b31dc15e0df",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_gemini2_camera_depth_frame.stl",
+      "source_sha256": "26319407e13d7ef04d26238dcb0f679c8c7b8507e5a11fdc20b25b31dc15e0df",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_mounts_D405_305_Mount.stl",
+      "sha256": "8f3b8ebbb55b1376c4d3341562ffde0bfc3ccf9dabdce2e233d8b5bd999ee276",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_mounts_D405_305_Mount.stl",
+      "source_sha256": "8f3b8ebbb55b1376c4d3341562ffde0bfc3ccf9dabdce2e233d8b5bd999ee276",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_mounts_D435_Gemini2_Mount.stl",
+      "sha256": "ca73b5beb2879167285cda2284cb0e878737a69cde1298e54a5b6ee6c952b14e",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_mounts_D435_Gemini2_Mount.stl",
+      "source_sha256": "ca73b5beb2879167285cda2284cb0e878737a69cde1298e54a5b6ee6c952b14e",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_mounts_UVC32_mount.stl",
+      "sha256": "4e093b5d6694cf8e2105e58b2b6ea027516ee9b4f556ee49ca2a77eb32d28080",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_mounts_UVC32_mount.stl",
+      "source_sha256": "4e093b5d6694cf8e2105e58b2b6ea027516ee9b4f556ee49ca2a77eb32d28080",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_realsense_d405.stl",
+      "sha256": "a248f41149d12b28311829feecbe7a80cf1481fd05e0f5df2c4c7ecd556edd48",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_realsense_d405.stl",
+      "source_sha256": "a248f41149d12b28311829feecbe7a80cf1481fd05e0f5df2c4c7ecd556edd48",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_uvc32_board.stl",
+      "sha256": "c1939b6787dc7ca0f65717363a73312d24831edb2c22fab652697a79d3d70da2",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_uvc32_board.stl",
+      "source_sha256": "c1939b6787dc7ca0f65717363a73312d24831edb2c22fab652697a79d3d70da2",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_uvc32_glass.stl",
+      "sha256": "4ace8e26956070a7300dc6c9f83416ce0f61bace4a686e9d86b4b1ba44d887b7",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_uvc32_glass.stl",
+      "source_sha256": "4ace8e26956070a7300dc6c9f83416ce0f61bace4a686e9d86b4b1ba44d887b7",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/meshes/visual/wrist_uvc32_lens.stl",
+      "sha256": "5a9f3104a41163acabaf19a5e55eb4a15b9986e199dddbf6491c07712e23a76b",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/meshes/wrist_uvc32_lens.stl",
+      "source_sha256": "5a9f3104a41163acabaf19a5e55eb4a15b9986e199dddbf6491c07712e23a76b",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/mjcf/THIRD_PARTY_MODELS.md",
+      "sha256": "72f859a755c095e3fb6ae803d02b1afee9f45891a564762b1d95f67917571aa3",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/THIRD_PARTY_MODELS.md",
+      "source_sha256": "72f859a755c095e3fb6ae803d02b1afee9f45891a564762b1d95f67917571aa3",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/mjcf/licenses/Apache-2.0.txt",
+      "sha256": "1a325fd390b54e7b142d31dfcbfa4ed4621b83d2ec8e3b9fad054d491b3a4c49",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/licenses/Apache-2.0.txt",
+      "source_sha256": "1a325fd390b54e7b142d31dfcbfa4ed4621b83d2ec8e3b9fad054d491b3a4c49",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/mjcf/licenses/CERN-OHL-W-2.0.txt",
+      "sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/licenses/CERN-OHL-W-2.0.txt",
+      "source_sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/mjcf/licenses/Three-MIT.txt",
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/licenses/Three-MIT.txt",
+      "source_sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f",
+      "transformation": "unchanged"
+    },
+    {
+      "path": "RS/mjcf/rs_arm.xml",
+      "sha256": "8995155fd45364cc968338fdcb92935517a7edae6bfc8b9e82ec67df93c40741",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/rs_arm.xml",
+      "source_sha256": "3c624e4c0747131f4fe1990b868fdcb825b9ed17a472fa94f611d20245152ce6",
+      "transformation": "mesh reference paths only"
+    },
+    {
+      "path": "RS/mjcf/rs_grasp_scene.xml",
+      "sha256": "e89e3b3abcb53b675216cea8d70328f1036145f8d85683eb96451198786cd925",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/rs_grasp_scene.xml",
+      "source_sha256": "4c315514646e45c2535b0cd2ebb359dff65c3b629f024dd8a8e4223f76db565e",
+      "transformation": "mesh reference paths only"
+    },
+    {
+      "path": "RS/mjcf/wrist_cameras.json",
+      "sha256": "0a4992ad06be40312b5b9bb3dbb3ee1386bbadffc5f1ab896a0beeba80baf1a0",
+      "source_repository": "Yang-Ci/ReBot_Arm_DigitalTwin_RS",
+      "source_commit": "aa807cf2affe85b13b86221159871aae7742c01b",
+      "source_path": "rebotarm_ros2_RS/src/rebotarm_mujoco_rs/models/wrist_cameras.json",
+      "source_sha256": "0a4992ad06be40312b5b9bb3dbb3ee1386bbadffc5f1ab896a0beeba80baf1a0",
+      "transformation": "unchanged"
+    }
+  ]
+}

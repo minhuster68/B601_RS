@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- Expanded and merged with the installed RS description by demo.launch.py. -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ReBot_Arm_RS">
+  <xacro:arg name="initial_positions_file" default=""/>
+  <xacro:property name="initial" value="${xacro.load_yaml('$(arg initial_positions_file)')['initial_positions']}"/>
+  <ros2_control name="RebotArmRSMockSystem" type="system">
+    <hardware>
+      <plugin>mock_components/GenericSystem</plugin>
+    </hardware>
+    <xacro:macro name="controlled_joint" params="name">
+      <joint name="${name}">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial[name]}</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+    </xacro:macro>
+    <xacro:controlled_joint name="joint1"/>
+    <xacro:controlled_joint name="joint2"/>
+    <xacro:controlled_joint name="joint3"/>
+    <xacro:controlled_joint name="joint4"/>
+    <xacro:controlled_joint name="joint5"/>
+    <xacro:controlled_joint name="joint6"/>
+    <xacro:controlled_joint name="gripper_joint1"/>
+    <joint name="gripper_joint2">
+      <!-- Humble GenericSystem also needs its own mimic parameters. -->
+      <param name="mimic">gripper_joint1</param>
+      <param name="multiplier">1</param>
+      <state_interface name="position">
+        <param name="initial_value">${initial['gripper_joint2']}</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+</robot>

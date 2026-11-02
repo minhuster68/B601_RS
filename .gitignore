@@ -1,0 +1,8 @@
+# Python bytecode from tools/
+__pycache__/
+*.py[cod]
+
+# Local colcon workspace outputs
+/build/
+/install/
+/log/
