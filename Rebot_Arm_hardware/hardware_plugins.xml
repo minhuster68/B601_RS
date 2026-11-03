@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<library path="rebot_arm_rs_hardware">
+  <class name="rebot_arm_rs_hardware/RSSystem"
+         type="rebot_arm_rs_hardware::RSSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>RobStride CSP position control and encoder feedback over Linux SocketCAN.</description>
+  </class>
+</library>

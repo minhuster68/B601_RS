@@ -1,0 +1,94 @@
+# Motor IDs confirmed by the owner: joint1..joint6 -> 1..6; gripper -> 7.
+# Encoder increase confirmed to match positive URDF joint motion: direction +1.
+# IDs 1..6: device zero set at URDF q=0 and retained after power cycle, 2026-11-03.
+# ID 7: device zero at closed jaws, unsigned startup; power-cycle verified 2026-11-03.
+# Owner selected datasheet rated-load phase-peak currents, 2026-11-03:
+# RS06: 14.3 A; RS00: 4.7 A (manuals 260713, Electrical characteristic).
+# These are configured limit_cur ceilings, not measured task currents or PSU DC amps.
+# Owner enabled calibration_confirmed for commissioning; real control validation is pending.
+can_interface: can0
+host_id: 253
+calibration_confirmed: true
+feedback_timeout_s: 0.15
+startup_timeout_s: 2.0
+poll_rate_hz: 50.0
+max_control_period_s: 0.05
+watchdog_ms: 200
+# Feedback overtravel only, in LOAD-SIDE motor radians. Commands stay within URDF.
+# Gripper tolerance per finger: 0.05 / 119.2602 = 0.00041925 m.
+position_limit_tolerance_rad: 0.05
+
+# motor_radians_per_joint_unit refers to the motor's LOAD-SIDE mechPos,
+# not its internal rotor. Arm units: rad; gripper units: metres per finger.
+joints:
+  joint1:
+    model: RS06
+    motor_id: 1
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 14.3
+  joint2:
+    model: RS06
+    motor_id: 2
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 14.3
+  joint3:
+    model: RS06
+    motor_id: 3
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 14.3
+  joint4:
+    model: RS00
+    motor_id: 4
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 4.7
+  joint5:
+    model: RS00
+    motor_id: 5
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 4.7
+  joint6:
+    model: RS00
+    motor_id: 6
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    motor_radians_per_joint_unit: 1.0
+    max_velocity: 0.2
+    max_tracking_error: 0.15
+    current_limit_a: 4.7
+  gripper_joint1:
+    model: RS00
+    motor_id: 7
+    direction: 1
+    motor_zero_rad: 0.0
+    joint_zero: 0.0
+    # (7.49925 - 1.53624) rad / 0.05 m per finger; full opening measured 100 mm.
+    motor_radians_per_joint_unit: 119.2602
+    max_velocity: 0.01
+    max_tracking_error: 0.005
+    current_limit_a: 4.7

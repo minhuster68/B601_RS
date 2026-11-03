@@ -3,6 +3,12 @@
 MoveIt 2 planning and mock trajectory execution are available in
 [`Rebot_Arm_moveit/`](Rebot_Arm_moveit/README.md) (`rebot_arm_moveit`).
 
+Real RS encoder monitoring and CSP control through SocketCAN are in
+[`Rebot_Arm_hardware/`](Rebot_Arm_hardware/README.md) (`rebot_arm_rs_hardware`).
+Fill the actual motor IDs and calibration first; hardware launch defaults to
+read-only monitoring, and `can_probe --scan` can query unknown IDs without
+enabling motors.
+
 ROS 2 package: [`rebot_arm_rs_description`](Rebot_Arm_description/RS_description/README.md).
 Build and launch from this repository root (ROS 2 Humble):
 
